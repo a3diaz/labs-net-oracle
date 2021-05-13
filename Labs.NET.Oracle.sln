@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapters", "Adapters", "{C3401AB3-C552-413E-B083-FF05A29A641D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{D1718BE8-A565-436C-9F8A-3DBD4B4CA373}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Labs.NET.Oracle.Domain", "Labs.NET.Oracle.Domain\Labs.NET.Oracle.Domain.csproj", "{098B2B86-30EF-4F8B-8471-9C222DB346AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Labs.NET.Oracle.Application", "Labs.NET.Oracle.Application\Labs.NET.Oracle.Application.csproj", "{09B09827-5827-4CA7-99AC-E40A890F03F8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Labs.NET.Oracle.Infrastructure", "Labs.NET.Oracle.Infrastructure\Labs.NET.Oracle.Infrastructure.csproj", "{13A5F9B8-9776-4163-91BC-D4175ED806B0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Labs.NET.Oracle.WebAPI", "Labs.NET.Oracle.WebAPI\Labs.NET.Oracle.WebAPI.csproj", "{1A062B33-3C64-47E5-B090-168ACF3C8AFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labs.NET.Oracle.Catalogs", "Labs.NET.Oracle.Catalogs\Labs.NET.Oracle.Catalogs.csproj", "{8AD5107C-BB72-4BF7-AF67-0492507DCEF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{098B2B86-30EF-4F8B-8471-9C222DB346AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{098B2B86-30EF-4F8B-8471-9C222DB346AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{098B2B86-30EF-4F8B-8471-9C222DB346AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{098B2B86-30EF-4F8B-8471-9C222DB346AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09B09827-5827-4CA7-99AC-E40A890F03F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09B09827-5827-4CA7-99AC-E40A890F03F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09B09827-5827-4CA7-99AC-E40A890F03F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09B09827-5827-4CA7-99AC-E40A890F03F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13A5F9B8-9776-4163-91BC-D4175ED806B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13A5F9B8-9776-4163-91BC-D4175ED806B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13A5F9B8-9776-4163-91BC-D4175ED806B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13A5F9B8-9776-4163-91BC-D4175ED806B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A062B33-3C64-47E5-B090-168ACF3C8AFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A062B33-3C64-47E5-B090-168ACF3C8AFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A062B33-3C64-47E5-B090-168ACF3C8AFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A062B33-3C64-47E5-B090-168ACF3C8AFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AD5107C-BB72-4BF7-AF67-0492507DCEF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AD5107C-BB72-4BF7-AF67-0492507DCEF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AD5107C-BB72-4BF7-AF67-0492507DCEF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AD5107C-BB72-4BF7-AF67-0492507DCEF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{098B2B86-30EF-4F8B-8471-9C222DB346AF} = {D1718BE8-A565-436C-9F8A-3DBD4B4CA373}
+		{09B09827-5827-4CA7-99AC-E40A890F03F8} = {D1718BE8-A565-436C-9F8A-3DBD4B4CA373}
+		{13A5F9B8-9776-4163-91BC-D4175ED806B0} = {D1718BE8-A565-436C-9F8A-3DBD4B4CA373}
+		{1A062B33-3C64-47E5-B090-168ACF3C8AFD} = {C3401AB3-C552-413E-B083-FF05A29A641D}
+		{8AD5107C-BB72-4BF7-AF67-0492507DCEF7} = {D1718BE8-A565-436C-9F8A-3DBD4B4CA373}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D70DC19D-441B-4888-9824-3F2FD41EC244}
+	EndGlobalSection
+EndGlobal
